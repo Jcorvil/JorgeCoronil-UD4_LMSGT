@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<xs:schema smlns:xs="http://www.w3.org/2001/XMLSchema" version="0.1" xml:lang="es">
+ <xs:element name="Libreria">
+  <xs:complexType>
+   <xs:sequence>
+    <xs:element name="manga" maxOccurs="unbounded">
+     <xs:complexType>
+      <xs:sequence>
+       <xs:element name="titulo" type="xs:string"/>
+       <xs:element name="editorial" type="xs:string"/>
+       <xs:element name="isbn" type="xs:string"/>
+       <xs:element name="genero" type="xs:string"/>
+       <xs:element name="tomos" type="xs:string"/>
+      </xs:sequence>
+     </xs:complexType>
+    </xs:element>
+    <xs:element name="autores" maxOccurs="unbounded">
+     <xs:complexType>
+      <xs:sequence>
+       <xs:element name="nombre"/>
+       <xs:element name="apellidos"/>
+      </xs:sequence>    
+     </xs:complexType>
+    </xs:element>
+    <xs:element name="fecha-publicacion" maxOccurs="unbounded">
+     <xs:complexType>
+      <xs:sequence>
+       <xs:element name="dia"/>
+       <xs:element name="mes"/>
+       <xs:element name="año"/>       
+      </xs:sequence>    
+     </xs:complexType>
+    </xs:element>
+   </xs:sequence>
+  </xs:complexType>
+ </xs:element>
