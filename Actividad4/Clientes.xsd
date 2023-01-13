@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" version="0.1" xml:lang="es">
+
+<xs:element name="sede">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="alta" maxOccurs="unbounded">
+                <xs:complextype>
+                    <xs:sequence>
+                        <xs:element name="empleado-alta" maxOccurs="unbounded"/>
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="codigo-sede" type="xs:string"/>
+                                    <xs:element name="empleado" type="xs:string"/>
+                                    <xs:element name="fecha" type="xs:string"/>
+                                    <xs:element name="descripcion-cliente" type="xs:string"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        <xs:element name="cliente" maxOccurs="unbounded"/>
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="codigo-cliente" type="xs:string"/>
+                                    <xs:element name="numero" type="xs:string"/>
+                                    <xs:element name="coste" type="xs:string"/>
+                                    <xs:element name="resumen" type="xs:string"/>
+                                    <xs:element name="plazo" type="xs:string"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>

@@ -1,0 +1,13 @@
+<!DOCTYPE Concesionario SYSTEM "Concesionario.dtd">
+
+<concesionario>
+    <coche>
+        <codigo-de-coche></codigo-de-coche>
+        <marca></marca>
+        <modelo></modelo>
+        <matricula></matricula>
+        <potencia></potencia>
+        <plazas></plazas>
+        <numero-puertas></numero-puertas>
+    </coche>
+</concesionario>

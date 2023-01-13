@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE libreria SYSTEM "Concesionario.dtd">
+
+<concesionario>
+    <coche>
+        <codigo-de-coche>LJCPCBLCX11000237</codigo-de-coche>
+        <marca>Toyota</marca>
+        <modelo>GT86</modelo>
+        <matricula>1234ABC</matricula>
+        <potencia>200</potencia>
+        <plazas>4</plazas>
+        <numero-puertas>2</numero-puertas>
+    </coche>
+</concesionario>

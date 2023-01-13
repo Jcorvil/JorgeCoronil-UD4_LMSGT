@@ -1,0 +1,14 @@
+<!ELEMENT sede (alta*)>
+<!ELEMENT alta (empleado-alta*)
+<!ELEMENT empleado-alta (codigo-sede, empleado, fecha, descripcion-cliente)
+<!ELEMENT codigo-sede (#PCDATA)>
+<!ELEMENT empleado (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT descripcion-cliente (#PCDATA)>
+<!ELEMENT alta (cliente*)>
+<!ELEMENT cliente (codigo-cliente, numero, coste, resumen, plazo)>
+<!ELEMENT codigo-cliente (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT coste (#PCDATA)>
+<!ELEMENT resumen (#PCDATA)>
+<!ELEMENT plazo (#PCDATA)>
