@@ -1,4 +1,4 @@
-<!DOCTYPE Concesionario SYSTEM "Concesionario.dtd">
+<!DOCTYPE concesionario SYSTEM "Concesionario.dtd">
 
 <concesionario>
     <coche>

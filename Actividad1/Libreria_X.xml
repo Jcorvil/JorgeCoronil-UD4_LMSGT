@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Libreria xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gmrv.es Libreria.xsd">
+
+    <manga>
+        <autores>
+            <autor sexo="Mujer">
+                <nombre>Tsukumizu</nombre>
+                <apellidos/>
+            </autor>
+        </autores>
+        <titulo>Girls' last tour</titulo>
+        <editorial>Planeta Comic</editorial>
+        <isbn>ISBN: 978-84-1341-203-0</isbn>
+        <fecha-publicacion>
+            <dia>15</dia>
+            <mes>09</mes>
+            <año>2021</año>
+        </fecha-publicacion>
+        <genero>Seinen</genero>
+        <tomos>6</tomos>
+    </manga>
+
+    <manga>
+        <autores>
+            <autor sexo="Hombre">
+                <nombre>Hiroaki</nombre>
+                <apellidos>Samura</apellidos>
+            </autor>
+        </autores>
+        <titulo>La espada del inmortal</titulo>
+        <editorial>Ediciones Glénat</editorial>
+        <isbn>ISBN: 978-84-7904-393-3</isbn>
+        <fecha-publicacion>
+            <dia>25</dia>
+            <mes>05</mes>
+            <año>1997</año>
+        </fecha-publicacion>
+        <genero>Seinen</genero>
+        <tomos>30</tomos>
+    </manga>
+
+    <manga>
+        <autores>
+            <autor sexo="Hombre">
+                <nombre>Ryo</nombre>
+                <apellidos>Mizuno</apellidos>
+            </autor>
+        </autores>
+        <titulo>Lodoss War La Bruja Gris (Edición Integral)</titulo>
+        <editorial>Planeta Comic</editorial>
+        <isbn>ISBN: 978-84-684-7567-7</isbn>
+        <fecha-publicacion>
+            <dia>22</dia>
+            <mes>09</mes>
+            <año>2011</año>
+        </fecha-publicacion>
+        <genero>Shonen</genero>
+        <tomos>1</tomos>
+    </manga>
+    
+    <manga>
+        <autores>
+            <autor sexo="Hombre">
+                <nombre>Junji</nombre>
+                <apellidos>Ito</apellidos>
+            </autor>
+        </autores>
+        <titulo>Uzumaki</titulo>
+        <editorial>Planeta de Agostini</editorial>
+        <isbn>ISBN: 978-84-914-6584-3</isbn>
+        <fecha-publicacion>
+            <dia>17</dia>
+            <mes>10</mes>
+            <año>2017</año>
+        </fecha-publicacion>
+        <genero>Seinen</genero>
+        <tomos>1</tomos>
+    </manga>
+        
+    <manga>
+        <autores>
+            <autor sexo="Hombre">
+                <nombre>Takehiko</nombre>
+                <apellidos>Inoue</apellidos>
+            </autor>
+        </autores>
+        <titulo>Vagabond</titulo>
+        <editorial>IVREA</editorial>
+        <isbn>ISBN: 978-84-159-2294-0</isbn>
+        <fecha-publicacion>
+            <dia>17</dia>
+            <mes>09</mes>
+            <año>1998</año>
+        </fecha-publicacion>
+        <genero>Seinen</genero>
+        <tomos>37</tomos>
+    </manga>
+        
+    <manga>
+        <autores>
+            <autor sexo="Mujer">
+                <nombre>Rumiko</nombre>
+                <apellidos>Takahashi</apellidos>
+            </autor>
+        </autores>
+        <titulo>Lamu, Urusei Yatsura</titulo>
+        <editorial>Glénat</editorial>
+        <isbn>ISBN: 978-09-292-7964-0</isbn>
+        <fecha-publicacion>
+            <dia>01</dia>
+            <mes>01</mes>
+            <año>1990</año>
+        </fecha-publicacion>
+        <genero>Shonen</genero>
+        <tomos>15</tomos>
+    </manga>
+        
+    <manga>
+        <autores>
+            <autor sexo="Hombre">
+                <nombre>Kiyohiko</nombre>
+                <apellidos>Azuma</apellidos>
+            </autor>
+        </autores>
+        <titulo>¡Yotsuba!</titulo>
+        <editorial>Norma Editorial</editorial>
+        <isbn>ISBN: 978-84-9814-360-7</isbn>
+        <fecha-publicacion>
+            <dia>28</dia>
+            <mes>09</mes>
+            <año>2005</año>
+        </fecha-publicacion>
+        <genero>Shonen</genero>
+        <tomos>15</tomos>
+    </manga>
+        
+    <manga>
+        <autores>
+            <autor sexo="Hombre">
+                <nombre>Akira</nombre>
+                <apellidos>Toriyama</apellidos>
+            </autor>
+        </autores>
+        <titulo>Dr. Slump</titulo>
+        <editorial>Planeta DeAgostini</editorial>
+        <isbn>ISBN: 978-84-917-3782-7</isbn>
+        <fecha-publicacion>
+            <dia>04</dia>
+            <mes>11</mes>
+            <año>2009</año>
+        </fecha-publicacion>
+        <genero>Shonen</genero>
+        <tomos>15</tomos>
+    </manga>
+        
+    <manga>
+        <autores>
+            <autor sexo="Hombre">
+                <nombre>Katsuhiro</nombre>
+                <apellidos>Otomo</apellidos>
+            </autor>
+        </autores>
+        <titulo>Akira</titulo>
+        <editorial>Norma Editorial</editorial>
+        <isbn>ISBN: 978-84-679-3256-0</isbn>
+        <fecha-publicacion>
+            <dia>20</dia>
+            <mes>12</mes>
+            <año>1982</año>
+        </fecha-publicacion>
+        <genero>Seinen</genero>
+        <tomos>6</tomos>
+    </manga>
+
+    <manga>
+        <autores>
+            <autor sexo="Hombre">
+                <nombre>Yoshiyuki</nombre>
+                <apellidos>Sadamoto</apellidos>
+            </autor>
+        </autores>
+        <titulo>Neon Genesis Evangelion</titulo>
+        <editorial>Norma Editorial</editorial>
+        <isbn>ISBN: 978-84-8431-743-2</isbn>
+        <fecha-publicacion>
+            <dia>26</dia>
+            <mes>12</mes>
+            <año>1994</año>
+        </fecha-publicacion>
+        <genero>Shonen</genero>
+        <tomos>14</tomos>
+    </manga>
+
+        <manga>
+        <autores>
+            <autor sexo="Hombre">
+                <nombre>Kazuhiko</nombre>
+                <apellidos>Katou</apellidos>
+            </autor>
+        </autores>
+        <titulo>Lupin III</titulo>
+        <editorial>Panini Comics</editorial>
+        <isbn>ISBN: 978-84-9167-589-1</isbn>
+        <fecha-publicacion>
+            <dia>30</dia>
+            <mes>08</mes>
+            <año>2018</año>
+        </fecha-publicacion>
+        <genero>Seinen</genero>
+        <tomos>7</tomos>
+    </manga>
+
+</Libreria>

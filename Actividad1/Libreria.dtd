@@ -1,9 +1,10 @@
 <!ELEMENT libreria (manga*)>
 <!ELEMENT manga (autores, titulo, editorial, isbn, fecha-publicacion, genero, tomos)>
-<!ELEMENT autores (autor*)
-<!ELEMENT autor (nombre, apellidos)
+<!ELEMENT autores (autor*)>
+<!ELEMENT autor (nombre, apellidos, sexo)>
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT sexo (#PCDATA)>
 <!ELEMENT titulo (#PCDATA)>
 <!ELEMENT editorial (#PCDATA)>
 <!ELEMENT isbn (#PCDATA)>
