@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE sede SYSTEM "Clientes.dtd">
+
+<sede>
+    <alta>
+        <empleado-alta>
+            <codigo-sede>A1234567</codigo-sede>
+            <empleado>Roberto Chencho Dembow</empleado>
+            <fecha>13/01/2023</fecha>
+            <descripcion-cliente>Solvente</descripcion-cliente>
+        </empleado-alta>
+
+        <cliente>
+            <codigo-cliente formato="XYZ-1-2-3">ABC-7-4-1</codigo-cliente>
+            <numero>1</numero>
+            <coste>250000</coste>
+            <resumen>Casa simple</resumen>
+            <plazo>Un mes</plazo>
+        </cliente>
+    </alta>
+</sede>

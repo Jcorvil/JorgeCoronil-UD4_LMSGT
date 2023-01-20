@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE clientes SYSTEM "Clientes.dtd">
-
-<sede>
+ 
+<sede xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Clientes.xsd">
     <alta>
         <empleado-alta>
             <codigo-sede>A1234567</codigo-sede>
             <empleado>Roberto Chencho Dembow</empleado>
-            <fecha="DD/MM/YYYY">13/01/2023</fecha>
+            <fecha>13/01/2023</fecha>
             <descripcion-cliente>Solvente</descripcion-cliente>
         </empleado-alta>
 
         <cliente>
-            <codigo-cliente="XYZ-1-2-3">ABC-7-4-1</codigo-cliente>
+            <codigo-cliente formato="XYZ-1-2-3">ABC-7-4-1</codigo-cliente>
             <numero>1</numero>
             <coste>250000</coste>
             <resumen>Casa simple</resumen>

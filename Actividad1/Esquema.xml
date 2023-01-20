@@ -1,22 +1,22 @@
 <libreria>
 
-    <a:manga>
-        <a:autores>
-            <a:autor sexo="">
-                <a:nombre></a:nombre>
-                <a:apellidos/>
-            </a:autor>
-        </a:autores>
-        <a:titulo></a:titulo>
-        <a:editorial><a:editorial>
-        <a:isbn></a:isbn>
-        <a:fecha-publicacion>
-            <a:dia></a:dia>
-            <a:mes></a:mes>
-            <a:año></a:año>
-        </a:fecha-publicacion>
-        <a:genero></a:genero>
-        <a:tomos></a:tomos>
-    </a:manga>
+    <manga>
+        <autores>
+            <autor sexo="">
+                <nombre></nombre>
+                <apellidos/>
+            </autor>
+        </autores>
+        <titulo></titulo>
+        <editorial></editorial>
+        <isbn></isbn>
+        <fecha-publicacion>
+            <dia></dia>
+            <mes></mes>
+            <año></año>
+        </fecha-publicacion>
+        <genero></genero>
+        <tomos></tomos>
+    </manga>
 
 </libreria>
