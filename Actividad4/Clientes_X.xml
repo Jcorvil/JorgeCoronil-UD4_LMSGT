@@ -2,19 +2,19 @@
  
 <sede xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Clientes.xsd">
     <alta>
-        <empleado-alta>
+        <empleado-alta >
             <codigo-sede>A1234567</codigo-sede>
-            <empleado>Roberto Chencho Dembow</empleado>
+            <empleado>Roberto Martinez Dembow</empleado>
             <fecha>13/01/2023</fecha>
             <descripcion-cliente>Solvente</descripcion-cliente>
         </empleado-alta>
 
-        <cliente>
+        <clienteNDatos >
             <codigo-cliente formato="XYZ-1-2-3">ABC-7-4-1</codigo-cliente>
             <numero>1</numero>
             <coste>250000</coste>
             <resumen>Casa simple</resumen>
-            <plazo>Un mes</plazo>
-        </cliente>
+            <plazos>6</plazos>
+        </clienteNDatos>
     </alta>
 </sede>

@@ -1,42 +1,44 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" version="0.1" xml:lang="es">
     <xs:element name="Libreria">
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="manga" maxOccurs="unbounded">
-                    <xs:element name="autores" maxOccurs="unbounded">
-                        <xs:complexType>
-                            <xs:sequence>
-                                <xs:element name="autor" maxOccurs="unbounded">
-                                        <xs:element name="nombre"/>
-                                        <xs:element name="apellidos"/>
-                                </xs:element>        
-                            </xs:sequence>
-                        </xs:complexType>
-                    </xs:element>
-                
                     <xs:complexType>
                         <xs:sequence>
+                            <xs:element name="autores">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="autor">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="nombre" type="xs:string"/>
+                                                    <xs:element name="apellidos"/>
+                                                </xs:sequence>
+                                                <xs:attribute name="sexo" type="xs:string"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
                             <xs:element name="titulo" type="xs:string"/>
                             <xs:element name="editorial" type="xs:string"/>
                             <xs:element name="isbn" type="xs:string"/>
+                            <xs:element name="fecha-publicacion">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="dia" type="xs:int"/>
+                                        <xs:element name="mes" type="xs:int"/>
+                                        <xs:element name="año" type="xs:int"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
                             <xs:element name="genero" type="xs:string"/>
-                            <xs:element name="tomos" type="xs:string"/>
-                        </xs:sequence>
-                    </xs:complexType>
-                
-                <xs:element name="fecha-publicacion" maxOccurs="unbounded">
-                    <xs:complexType>
-                        <xs:sequence>
-                            <xs:element name="dia"/>
-                            <xs:element name="mes"/>
-                            <xs:element name="año"/>
+                            <xs:element name="tomos" type="xs:int"/>
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
-            </xs:element>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-    
 </xs:schema>

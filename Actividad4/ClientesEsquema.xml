@@ -1,15 +1,14 @@
-<sede>
-    <empleado>
-        <codigo-sede></codigo-sede>
-        <empleado></empleado>
+<clientes>
+    <sede codigo="">
+        <direccion></direccion>
+        <nombreEmpleado></nombreEmpleado>
         <fecha></fecha>
-        <descripcion-cliente></descripcion-cliente>
-    </empleado>
-    <cliente>
-        <codigo-cliente></codigo-cliente>
-        <numero></numero>
-        <coste></coste>
-        <resumen></resumen>
-        <plazo></plazo>
-    </cliente>
-</sede>
+        <descripcion></descripcion>
+        <cliente codigo="">
+            <numero></numero>
+            <coste></coste>
+            <resumen></resumen>
+            <plazo></plazo>
+        </cliente>
+    </sede>
+</clientes>
