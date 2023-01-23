@@ -2,7 +2,6 @@
 <!ELEMENT manga (autores, titulo, editorial, isbn, fecha-publicacion, genero, tomos)>
 <!ELEMENT autores (autor*)>
 <!ELEMENT autor (nombre, apellidos)>
-<!ELEMENT auto (#PCDATA)>
 <!ATTLIST autor sexo CDATA #IMPLIED>
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT apellidos (#PCDATA)>

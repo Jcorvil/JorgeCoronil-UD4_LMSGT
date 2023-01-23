@@ -14,7 +14,7 @@
                             </xs:sequence>
                         </xs:complexType>
                     </xs:element>
-                </xs:element>
+                
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name="titulo" type="xs:string"/>
@@ -24,7 +24,7 @@
                             <xs:element name="tomos" type="xs:string"/>
                         </xs:sequence>
                     </xs:complexType>
-                </xs:element>
+                
                 <xs:element name="fecha-publicacion" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
@@ -34,6 +34,7 @@
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
+            </xs:element>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
