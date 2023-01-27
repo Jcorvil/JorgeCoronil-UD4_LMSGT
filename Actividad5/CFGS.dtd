@@ -1,6 +1,8 @@
-<!ELEMENT cfgs(alumno*)>
-<!ELEMENT alumno(nif, resultado, observaciones, IP-MAC)>
+<!ELEMENT cfgs (alumno*)>
+<!ELEMENT alumno (nif, resultado, observaciones, IP, MAC)>
 <!ELEMENT nif (#PCDATA)>
 <!ELEMENT resultado (#PCDATA)>
+<!ATTLIST resultado opcion CDATA #FIXED "apto/no apto">
 <!ELEMENT observaciones (#PCDATA)>
-<!ELEMENT IP-MAC (#PCDATA)>
+<!ELEMENT IP (#PCDATA)>
+<!ELEMENT MAC (#PCDATA)>

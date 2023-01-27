@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE moduloCFGS SYSTEM "ModuloCFGS.dtd">
+
+<moduloCFGS>
+    <modulo>
+        <nombre>Lenguajes de marcas y sistemas de gestión de información</nombre>
+        <contenidos>
+            <UD numero="1">
+                <tipo>Introducción a los lenguajes de marcas</tipo>
+                <descripcion>Introducción a la asignatura de lenguajes de marcas y sistemas de gestión de la información</descripcion>
+            </UD>
+            <UD numero="2">
+                <tipo>Lenguajes para la visualización de información</tipo>
+                <descripcion>Introducción y uso de HTML y CSS</descripcion>
+            </UD>
+            <UD numero="3">
+                <tipo>Lenguajes para el almacenamiento y transmisión de información</tipo>
+                <descripcion>Como usar XML, estructura y sintaxis</descripcion>
+            </UD>
+        </contenidos>
+    </modulo>
+    <modulo>
+        <nombre>Bases de Datos</nombre>
+        <contenidos>
+            <UD numero="1">
+                <tipo>Almacenamiento de la información</tipo>
+                <descripcion>Introducción a los métodos de almacenamiento de la información. Historia, ficheros y tipos de almacenamiento</descripcion>
+            </UD>
+            <UD numero="2">
+                <tipo>Bases de datos relacionales</tipo>
+                <descripcion>Modelo relacional. Características y su uso</descripcion>
+            </UD>
+            <UD numero="3">
+                <tipo>Modelo Entidad/Relación</tipo>
+                <descripcion>Introducción, elementos y extensiones del modelo E/R</descripcion>
+            </UD>
+        </contenidos>
+    </modulo>
+    <modulo>
+        <nombre>Entornos de desarrollo</nombre>
+        <contenidos>
+            <UD numero="1">
+                <tipo>Desarrollo de software</tipo>
+                <descripcion>Tipos de paradigmas, tipos de código, lenguajes de programación, roles del desarrollo y arquitectura del software</descripcion>
+            </UD>
+            <UD numero="2">
+                <tipo>Instalación y uso de entornos de desarrollo</tipo>
+                <descripcion>Que es un IDE (Entorno de Desarrollo Integrado) y como usarlo</descripcion>
+            </UD>
+            <UD numero="3">
+                <tipo>Optimizacion y documentacion</tipo>
+                <descripcion>Refactorización de código, uso de GitHub, repositorios y su documentación</descripcion>
+            </UD>
+        </contenidos>
+    </modulo>
+
+</moduloCFGS>

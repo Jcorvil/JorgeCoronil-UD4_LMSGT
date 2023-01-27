@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE CFGS SYSTEM "CFGS.dtd">
+<!DOCTYPE cfgs SYSTEM "CFGS.dtd">
 
 <cfgs>
     <alumno>
@@ -7,11 +7,14 @@
         <resultado opcion="apto/no apto">Apto</resultado>
         <observaciones>El alumno tiene disponibilidad geográfica.</observaciones>
         <IP>192.158.1.38</IP>
+        <MAC/>
     </alumno>
 
     <alumno>
         <nif>45678912B</nif>
         <resultado opcion="apto/no apto">No apto</resultado>
+        <observaciones/>
+        <IP/>
         <MAC>8C:1B:A5:11:14:93</MAC>
     </alumno>
 </cfgs>

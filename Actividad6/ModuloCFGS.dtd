@@ -1,0 +1,8 @@
+<!ELEMENT moduloCFGS (modulo*)>
+<!ELEMENT modulo (nombre, contenidos)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT contenidos (UD*)>
+<!ELEMENT UD (tipo, descripcion)>
+<!ATTLIST UD numero CDATA #IMPLIED>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>

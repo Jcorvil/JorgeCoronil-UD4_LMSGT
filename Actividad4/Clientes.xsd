@@ -10,7 +10,15 @@
                             <xs:element name="empleado-alta" maxOccurs="unbounded">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="codigo-sede" type="xs:string"/>
+                                        <xs:element name="codigo-sede">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:string">
+                                                        <xs:attribute type="xs:string" name="formato"/>
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
                                         <xs:element name="empleado" type="xs:string"/>
                                         <xs:element name="fecha" type="xs:string"/>
                                         <xs:element name="descripcion-cliente" type="xs:string"/>
@@ -20,8 +28,16 @@
                             <xs:element name="clienteNDatos" maxOccurs="unbounded">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="codigo-cliente" type="xs:string"/>
-                                        <xs:attribute name="formato" type="xs:string"/>
+                                        <xs:element name="codigo-cliente">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:string">
+                                                        <xs:attribute type="xs:string" name="formato"/>
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="descripcion" type="xs:string"/>
                                         <xs:element name="numero" type="xs:string"/>
                                         <xs:element name="coste" type="xs:string"/>
                                         <xs:element name="resumen" type="xs:string"/>
