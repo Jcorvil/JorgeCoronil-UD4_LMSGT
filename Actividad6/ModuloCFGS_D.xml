@@ -2,6 +2,7 @@
 <!DOCTYPE moduloCFGS SYSTEM "ModuloCFGS.dtd">
 
 <moduloCFGS>
+
     <modulo>
         <nombre>Lenguajes de marcas y sistemas de gestión de información</nombre>
         <contenidos>
@@ -19,6 +20,7 @@
             </UD>
         </contenidos>
     </modulo>
+
     <modulo>
         <nombre>Bases de Datos</nombre>
         <contenidos>
@@ -36,6 +38,7 @@
             </UD>
         </contenidos>
     </modulo>
+    
     <modulo>
         <nombre>Entornos de desarrollo</nombre>
         <contenidos>

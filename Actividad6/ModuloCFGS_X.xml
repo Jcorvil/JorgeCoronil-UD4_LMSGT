@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<moduloCFGS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ModuloCFGS.xsd"></moduloCFGSxmlns:xsi>>
+<moduloCFGS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ModuloCFGS.xsd">
+    
     <modulo>
         <nombre>Lenguajes de marcas y sistemas de gestión de información</nombre>
         <contenidos>
@@ -17,6 +18,7 @@
             </UD>
         </contenidos>
     </modulo>
+
     <modulo>
         <nombre>Bases de Datos</nombre>
         <contenidos>
@@ -34,6 +36,7 @@
             </UD>
         </contenidos>
     </modulo>
+
     <modulo>
         <nombre>Entornos de desarrollo</nombre>
         <contenidos>

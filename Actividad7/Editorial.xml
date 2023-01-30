@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE editorial SYSTEM "Editorial.dtd">
+
+<editorial>
+
+    <informe>
+
+        <cabeceraInforme>
+            <titulo>Ediciones Aranda</titulo>
+            <nombre>Informe regional de ventas</nombre>
+            <descripcion>Informe de ventas para las regiones Norte, Centro y Sur</descripcion>
+            <fecha>30/12/2009</fecha>
+        </cabeceraInforme>
+
+        <tabla>
+
+            <region>
+                <norte>Norte
+                    <trimestre>1</trimestre>
+                        <libros>24000</libros>
+                    <trimestre>2</trimestre>
+                        <libros>38600</libros>
+                    <trimestre>3</trimestre>
+                        <libros/>
+                    <trimestre>4</trimestre>
+                        <libros/>
+                </norte>
+
+                <centro>Centro
+                    <trimestre>1</trimestre>
+                        <libros/>
+                    <trimestre>2</trimestre>
+                        <libros>16080</libros>
+                    <trimestre>3</trimestre>
+                        <libros>25000</libros>
+                    <trimestre>4</trimestre>
+                        <libros>29000</libros>
+                </centro>
+
+                <sur>Sur
+                    <trimestre>1</trimestre>
+                        <libros>27000</libros>
+                    <trimestre>2</trimestre>
+                        <libros>31400</libros>
+                    <trimestre>3</trimestre>
+                        <libros>40100</libros>
+                    <trimestre>4</trimestre>
+                        <libros>30000</libros>
+                </sur>
+            </region>
+
+        </tabla>
+
+    </informe>
+
+</editorial>
