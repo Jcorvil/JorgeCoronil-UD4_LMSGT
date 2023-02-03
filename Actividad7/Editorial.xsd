@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" version="0.1" xml:lang="es">
+    <xs:element name="editorial">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="informe" maxOccurs="unbounded">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="cabeceraInforme" maxOccurs="1" >
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element name="titulo" type="xs:string"/>
+                                            <xs:element name="nombre" type="xs:string"/>
+                                            <xs:element name="descripcion" type="xs:string"/>
+                                            <xs:element name="fecha" type="xs:string"/>
+                                        </xs:sequence>
+                                    </xs:complexType>
+                                </xs:element>
+                                <xs:element name="tabla" maxOccurs="1">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element name="region" maxOccurs="1">
+                                                <xs:complexType>
+                                                    <xs:sequence>
+                                                        <xs:element name="norte" maxOccurs="1">
+                                                            <xs:complexType mixed="true">
+                                                                <xs:choice maxOccurs="unbounded">
+                                                                    <xs:element name="trimestre" maxOccurs="4" type="xs:string"/>
+                                                                    <xs:element name="libros" maxOccurs="4" type="xs:string"/>
+                                                                </xs:choice>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                        <xs:element name="centro" maxOccurs="1">
+                                                            <xs:complexType mixed="true">
+                                                                <xs:choice maxOccurs="unbounded">
+                                                                    <xs:element name="trimestre" maxOccurs="4" type="xs:string"/>
+                                                                    <xs:element name="libros" maxOccurs="4" type="xs:string"/>
+                                                                </xs:choice>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                        <xs:element name="sur" maxOccurs="1">
+                                                            <xs:complexType mixed="true">
+                                                                <xs:choice maxOccurs="unbounded">
+                                                                    <xs:element name="trimestre" maxOccurs="4" type="xs:string"/>
+                                                                    <xs:element name="libros" maxOccurs="4" type="xs:string"/>
+                                                                </xs:choice>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                    </xs:sequence>
+                                                </xs:complexType>
+                                            </xs:element>
+                                        </xs:sequence>
+                                    </xs:complexType>
+                                </xs:element>
+                            </xs:sequence>
+                        </xs:complexType>
+                    </xs:element>
+                </xs:sequence>
+            </xs:complexType>
+    </xs:element>
+</xs:schema>
